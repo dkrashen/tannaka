@@ -1,0 +1,7 @@
+-   id: "home_link"
+    title: "Home"
+    url: "/"
+-   id: "instructor"
+    title: "Danny's home page"
+    url: "http://dkrashen.github.io"
+    prepend: false

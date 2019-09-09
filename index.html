@@ -1,0 +1,28 @@
+---
+layout: default
+---
+
+<div class="row header-row"> <!-- 0 -->
+
+<div class="col-md-9"> <!--1-->
+<h2>Resources</h2>
+{% for h in site.data.topics %}
+<div class="row well well-sm">
+	<div class="col-md-9">
+	  <b>{{h.title}}</b> 
+	</div>
+	<div class="col-md-3">
+    {% if h.link %}
+		<a href="{{ h.link }}"><button type="button"
+    class="btn btn-lnk btn-spaced">link</button></a>
+    {% endif %}
+	</div>
+</div>
+{% endfor %}
+</div><!--/1 -->
+
+</div><!--/0 -->
+
+
+
+

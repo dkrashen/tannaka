@@ -1,0 +1,22 @@
+testing: false
+analytics: false
+# Site settings
+title: "Tannakian Categories Reading Group"
+page_title: "Tannakian Categories"
+course_title: "Tannakian Categories Reading Group, Fall 2019."
+description: ""
+instructor: "Daniel Krashen"
+email: "daniel.krashen+tannaka@gmail.com"
+office: ""
+office_hours: ""
+lecture_schedule: "TBD"
+
+baseurl: "/tannaka"
+url: "http://dkrashen.github.io"
+
+# url: "localhost:4000"
+# url: "http://math.dkrashen.org"
+
+# Build settings
+markdown: kramdown
+permalink: pretty
